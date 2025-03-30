@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 @charset "utf-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
@@ -217,4 +218,225 @@ footer>p>a:hover {
     color: var(--cor1);
     transition-duration: 0.5s;
     font-size: medium;
+=======
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+:root {
+    --cor0: #ffffff;
+    --cor1: #c5ebd6;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+
+    --fonte-padrao: Arial, verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'bebas neue', Arial, verdana, Helvetica, sans-serif;
+    --fonte-android: 'idroid', Arial, verdana, Helvetica, sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-padrao);
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+header {
+    background-image: linear-gradient(var(--cor3), var(--cor5));
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    padding: 15px 0px 4px 0px;
+}
+
+header>h1 {
+    font-family: var(--fonte-destaque);
+    font-weight: 100;
+    font-size: 3em;
+    text-align: center;
+    margin: 0px auto 15px auto;
+}
+
+header>p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0vw 33vw;
+    margin-bottom: 15px;
+}
+
+nav {
+    display: inline-flex;
+}
+
+nav>p :hover {
+    background-color: rgb(69, 141, 101);
+    color: rgb(26, 92, 56);
+    border-radius: 5px;
+    padding: 5px;
+    transition-duration: 0.3s;
+}
+
+header>nav>p>a {
+    text-decoration: none;
+    color: rgb(185, 235, 166);
+    font-size: 12px;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-left: 9px;
+}
+
+main {
+    margin: 0vw 13vw 0vw 13vw;
+    margin-bottom: 10px;
+    max-width: 1000px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+main a:hover {
+    background-color: var(--cor1);
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+main p {
+    text-align: justify;
+    margin: 15px 0px;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+h2 {
+    font-family: idroid;
+    color: rgb(26, 92, 56);
+    margin-bottom: 14px;
+}
+
+strong {
+    color: rgb(26, 92, 56);
+    font-weight: 700;
+}
+
+section>p>a {
+    color: rgb(26, 92, 56);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0px 4px;
+    border-radius: 5%;
+}
+
+.corrente {
+    border: 0px;
+    width: 1em;
+    height: 1em;
+    border: 0px;
+}
+
+h3 {
+    font-family: idroid;
+    color: rgb(26, 92, 56);
+    background: rgb(132, 225, 173);
+    background: linear-gradient(90deg, rgba(132, 225, 173, 0.7) 20%, rgba(132, 225, 172, 0.4) 61%, rgba(132, 225, 172, 0.1) 100%);
+    margin: 15px 0px;
+    text-indent: 10px;
+}
+
+main>section>picture>img {
+    margin: 15px 0px 15px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.bugdroid {
+    width: auto;
+    height: auto;
+    margin: 15px auto 15px auto;
+    display: block;
+    max-width: 300px;
+}
+
+iframe {
+    padding: 0px;
+    border: rgb(26, 92, 56) 10px 15px solid;
+    width: auto;
+    height: auto;
+    margin: 10px 5px 10px 0px;
+}
+
+section.versao {
+    display: flex;
+    list-style-image: url(imagens/checkmark.png);
+}
+
+aside {
+    background-color: var(--cor1);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 0px 15px;
+
+}
+
+h4 {
+    color: var(--cor0);
+    background-color: var(--cor4);
+    border-radius: 10px 10px 0px 0px;
+    padding: 8px;
+}
+
+aside  ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+aside>p>a {
+    color: var(--cor5);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0px 4px;
+    border-radius: 5%;
+}
+
+aside a:hover {
+    background-color: var(--cor4);
+    color: var(--cor0);
+    border-radius: 5px;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: var(--cor0);
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor0);
+    font-weight: 700;
+}
+
+footer>p>a:hover {
+    color: var(--cor1);
+    transition-duration: 0.5s;
+    font-size: medium;
+>>>>>>> Stashed changes
 }
