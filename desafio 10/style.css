@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 @charset "utf-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
@@ -219,6 +220,8 @@ footer>p>a:hover {
     transition-duration: 0.5s;
     font-size: medium;
 =======
+=======
+>>>>>>> Stashed changes
 @charset "utf-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
@@ -438,5 +441,8 @@ footer>p>a:hover {
     color: var(--cor1);
     transition-duration: 0.5s;
     font-size: medium;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
